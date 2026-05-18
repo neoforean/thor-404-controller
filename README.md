@@ -1,3 +1,7 @@
+this is a repo in which i experiment with changing my genesis thor 404 tkl keyboard's led lighting through python
+
+---
+
 im using nobara linux but this should be straightforward for any linux distro
 
 ### dependencies
