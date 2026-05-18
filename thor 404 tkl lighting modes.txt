@@ -1,6 +1,6 @@
 Static
-Reaction: single key: ON
-Reaction: single key: Off
+Reaction: single key ON
+Reaction: single key Off
 Stars twinkle
 Rain drops
 Colourful
