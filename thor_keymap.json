@@ -1,0 +1,1344 @@
+{
+  "meta": {
+    "device": "Thor 404 TKL",
+    "capture_source": "red_keys_hexdump.zip",
+    "report_size_bytes": 64,
+    "per_key_encoding": "80RRGGBB",
+    "notes": [
+      "Primary key position is the dword in lines 12..19 whose value becomes 80ff0000 in the red captures.",
+      "escape.txt also contains extra non-default dwords in line 19; they are preserved in extra_dwords."
+    ]
+  },
+  "layout_rows": [
+    [
+      "escape",
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "f9",
+      "f10",
+      "f11",
+      "f12",
+      "prtsc",
+      "scrlk",
+      "pause"
+    ],
+    [
+      "backtick",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "0",
+      "-",
+      "=",
+      "backspace",
+      "insert",
+      "home",
+      "pgup"
+    ],
+    [
+      "tab",
+      "q",
+      "w",
+      "e",
+      "r",
+      "t",
+      "y",
+      "u",
+      "i",
+      "o",
+      "p",
+      "[",
+      "]",
+      "\\",
+      "del",
+      "end",
+      "pgdn"
+    ],
+    [
+      "capslk",
+      "a",
+      "s",
+      "d",
+      "f",
+      "g",
+      "h",
+      "j",
+      "k",
+      "l",
+      ";",
+      "'",
+      "enter"
+    ],
+    [
+      "lshift",
+      "z",
+      "x",
+      "c",
+      "v",
+      "b",
+      "n",
+      "m",
+      ",",
+      ".",
+      "/",
+      "rshift",
+      "up"
+    ],
+    [
+      "lctrl",
+      "super",
+      "lalt",
+      "space",
+      "ralt",
+      "fn",
+      "menu",
+      "rctrl",
+      "left",
+      "down",
+      "right"
+    ]
+  ],
+  "grid_8x16": [
+    [
+      null,
+      "escape",
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "f9",
+      "f10",
+      "f11",
+      "f12",
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "backtick",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "0",
+      "-",
+      "="
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "tab",
+      "q",
+      "w",
+      "e",
+      "r",
+      "t",
+      "y",
+      "u",
+      "i",
+      "o",
+      "p"
+    ],
+    [
+      "[",
+      "]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "caps lock",
+      "a",
+      "s",
+      "d",
+      "f",
+      "g",
+      "h",
+      "j",
+      "k"
+    ],
+    [
+      "l",
+      ";",
+      "'",
+      "reverse slash",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "left shift",
+      "z",
+      "x",
+      "c",
+      "v",
+      "b",
+      "n"
+    ],
+    [
+      "m",
+      ",",
+      "period",
+      "slash",
+      "right shift",
+      "enter",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "left ctrl",
+      "windows",
+      "left alt",
+      "space",
+      "right alt"
+    ],
+    [
+      "function",
+      "menu",
+      "right ctrl",
+      "left arrow",
+      "down arrow",
+      "up arrow",
+      "right arrow",
+      "backspace",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "prtsc",
+      "scrllk",
+      null,
+      "pause",
+      "insert",
+      "home",
+      "page up",
+      "del",
+      "end",
+      "page down",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "keys": {
+    "escape": {
+      "capture": {
+        "line": 12,
+        "dword": 1,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [
+        {
+          "line": 19,
+          "dword": 0,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 1,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 3,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 4,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 5,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 6,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 7,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 8,
+          "value": "800100ff"
+        },
+        {
+          "line": 19,
+          "dword": 9,
+          "value": "800100ff"
+        }
+      ],
+      "layout_label": "escape",
+      "layout_row": 0,
+      "layout_col": 0
+    },
+    "f1": {
+      "capture": {
+        "line": 12,
+        "dword": 2,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f1",
+      "layout_row": 0,
+      "layout_col": 1
+    },
+    "f2": {
+      "capture": {
+        "line": 12,
+        "dword": 3,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f2",
+      "layout_row": 0,
+      "layout_col": 2
+    },
+    "f3": {
+      "capture": {
+        "line": 12,
+        "dword": 4,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f3",
+      "layout_row": 0,
+      "layout_col": 3
+    },
+    "f4": {
+      "capture": {
+        "line": 12,
+        "dword": 5,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f4",
+      "layout_row": 0,
+      "layout_col": 4
+    },
+    "f5": {
+      "capture": {
+        "line": 12,
+        "dword": 6,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f5",
+      "layout_row": 0,
+      "layout_col": 5
+    },
+    "f6": {
+      "capture": {
+        "line": 12,
+        "dword": 7,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f6",
+      "layout_row": 0,
+      "layout_col": 6
+    },
+    "f7": {
+      "capture": {
+        "line": 12,
+        "dword": 8,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f7",
+      "layout_row": 0,
+      "layout_col": 7
+    },
+    "f8": {
+      "capture": {
+        "line": 12,
+        "dword": 9,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f8",
+      "layout_row": 0,
+      "layout_col": 8
+    },
+    "f9": {
+      "capture": {
+        "line": 12,
+        "dword": 10,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f9",
+      "layout_row": 0,
+      "layout_col": 9
+    },
+    "f10": {
+      "capture": {
+        "line": 12,
+        "dword": 11,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f10",
+      "layout_row": 0,
+      "layout_col": 10
+    },
+    "f11": {
+      "capture": {
+        "line": 12,
+        "dword": 12,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f11",
+      "layout_row": 0,
+      "layout_col": 11
+    },
+    "f12": {
+      "capture": {
+        "line": 12,
+        "dword": 13,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f12",
+      "layout_row": 0,
+      "layout_col": 12
+    },
+    "backtick": {
+      "capture": {
+        "line": 13,
+        "dword": 3,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "backtick",
+      "layout_row": 1,
+      "layout_col": 0
+    },
+    "1": {
+      "capture": {
+        "line": 13,
+        "dword": 4,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "1",
+      "layout_row": 1,
+      "layout_col": 1
+    },
+    "2": {
+      "capture": {
+        "line": 13,
+        "dword": 5,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "2",
+      "layout_row": 1,
+      "layout_col": 2
+    },
+    "3": {
+      "capture": {
+        "line": 13,
+        "dword": 6,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "3",
+      "layout_row": 1,
+      "layout_col": 3
+    },
+    "4": {
+      "capture": {
+        "line": 13,
+        "dword": 7,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "4",
+      "layout_row": 1,
+      "layout_col": 4
+    },
+    "5": {
+      "capture": {
+        "line": 13,
+        "dword": 8,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "5",
+      "layout_row": 1,
+      "layout_col": 5
+    },
+    "6": {
+      "capture": {
+        "line": 13,
+        "dword": 9,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "6",
+      "layout_row": 1,
+      "layout_col": 6
+    },
+    "7": {
+      "capture": {
+        "line": 13,
+        "dword": 10,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "7",
+      "layout_row": 1,
+      "layout_col": 7
+    },
+    "8": {
+      "capture": {
+        "line": 13,
+        "dword": 11,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "8",
+      "layout_row": 1,
+      "layout_col": 8
+    },
+    "9": {
+      "capture": {
+        "line": 13,
+        "dword": 12,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "9",
+      "layout_row": 1,
+      "layout_col": 9
+    },
+    "0": {
+      "capture": {
+        "line": 13,
+        "dword": 13,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "0",
+      "layout_row": 1,
+      "layout_col": 10
+    },
+    "-": {
+      "capture": {
+        "line": 13,
+        "dword": 14,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "-",
+      "layout_row": 1,
+      "layout_col": 11
+    },
+    "=": {
+      "capture": {
+        "line": 13,
+        "dword": 15,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "=",
+      "layout_row": 1,
+      "layout_col": 12
+    },
+    "tab": {
+      "capture": {
+        "line": 14,
+        "dword": 5,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "tab",
+      "layout_row": 2,
+      "layout_col": 0
+    },
+    "q": {
+      "capture": {
+        "line": 14,
+        "dword": 6,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "q",
+      "layout_row": 2,
+      "layout_col": 1
+    },
+    "w": {
+      "capture": {
+        "line": 14,
+        "dword": 7,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "w",
+      "layout_row": 2,
+      "layout_col": 2
+    },
+    "e": {
+      "capture": {
+        "line": 14,
+        "dword": 8,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "e",
+      "layout_row": 2,
+      "layout_col": 3
+    },
+    "r": {
+      "capture": {
+        "line": 14,
+        "dword": 9,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "r",
+      "layout_row": 2,
+      "layout_col": 4
+    },
+    "t": {
+      "capture": {
+        "line": 14,
+        "dword": 10,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "t",
+      "layout_row": 2,
+      "layout_col": 5
+    },
+    "y": {
+      "capture": {
+        "line": 14,
+        "dword": 11,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "y",
+      "layout_row": 2,
+      "layout_col": 6
+    },
+    "u": {
+      "capture": {
+        "line": 14,
+        "dword": 12,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "u",
+      "layout_row": 2,
+      "layout_col": 7
+    },
+    "i": {
+      "capture": {
+        "line": 14,
+        "dword": 13,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "i",
+      "layout_row": 2,
+      "layout_col": 8
+    },
+    "o": {
+      "capture": {
+        "line": 14,
+        "dword": 14,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "o",
+      "layout_row": 2,
+      "layout_col": 9
+    },
+    "p": {
+      "capture": {
+        "line": 14,
+        "dword": 15,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "p",
+      "layout_row": 2,
+      "layout_col": 10
+    },
+    "[": {
+      "capture": {
+        "line": 15,
+        "dword": 0,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "[",
+      "layout_row": 2,
+      "layout_col": 11
+    },
+    "]": {
+      "capture": {
+        "line": 15,
+        "dword": 1,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "]",
+      "layout_row": 2,
+      "layout_col": 12
+    },
+    "caps lock": {
+      "capture": {
+        "line": 15,
+        "dword": 7,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "capslk",
+      "layout_row": 3,
+      "layout_col": 0
+    },
+    "a": {
+      "capture": {
+        "line": 15,
+        "dword": 8,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "a",
+      "layout_row": 3,
+      "layout_col": 1
+    },
+    "s": {
+      "capture": {
+        "line": 15,
+        "dword": 9,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "s",
+      "layout_row": 3,
+      "layout_col": 2
+    },
+    "d": {
+      "capture": {
+        "line": 15,
+        "dword": 10,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "d",
+      "layout_row": 3,
+      "layout_col": 3
+    },
+    "f": {
+      "capture": {
+        "line": 15,
+        "dword": 11,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "f",
+      "layout_row": 3,
+      "layout_col": 4
+    },
+    "g": {
+      "capture": {
+        "line": 15,
+        "dword": 12,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "g",
+      "layout_row": 3,
+      "layout_col": 5
+    },
+    "h": {
+      "capture": {
+        "line": 15,
+        "dword": 13,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "h",
+      "layout_row": 3,
+      "layout_col": 6
+    },
+    "j": {
+      "capture": {
+        "line": 15,
+        "dword": 14,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "j",
+      "layout_row": 3,
+      "layout_col": 7
+    },
+    "k": {
+      "capture": {
+        "line": 15,
+        "dword": 15,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "k",
+      "layout_row": 3,
+      "layout_col": 8
+    },
+    "l": {
+      "capture": {
+        "line": 16,
+        "dword": 0,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "l",
+      "layout_row": 3,
+      "layout_col": 9
+    },
+    ";": {
+      "capture": {
+        "line": 16,
+        "dword": 1,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": ";",
+      "layout_row": 3,
+      "layout_col": 10
+    },
+    "'": {
+      "capture": {
+        "line": 16,
+        "dword": 2,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "'",
+      "layout_row": 3,
+      "layout_col": 11
+    },
+    "reverse slash": {
+      "capture": {
+        "line": 16,
+        "dword": 3,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "\\",
+      "layout_row": 2,
+      "layout_col": 13
+    },
+    "left shift": {
+      "capture": {
+        "line": 16,
+        "dword": 9,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "lshift",
+      "layout_row": 4,
+      "layout_col": 0
+    },
+    "z": {
+      "capture": {
+        "line": 16,
+        "dword": 10,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "z",
+      "layout_row": 4,
+      "layout_col": 1
+    },
+    "x": {
+      "capture": {
+        "line": 16,
+        "dword": 11,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "x",
+      "layout_row": 4,
+      "layout_col": 2
+    },
+    "c": {
+      "capture": {
+        "line": 16,
+        "dword": 12,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "c",
+      "layout_row": 4,
+      "layout_col": 3
+    },
+    "v": {
+      "capture": {
+        "line": 16,
+        "dword": 13,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "v",
+      "layout_row": 4,
+      "layout_col": 4
+    },
+    "b": {
+      "capture": {
+        "line": 16,
+        "dword": 14,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "b",
+      "layout_row": 4,
+      "layout_col": 5
+    },
+    "n": {
+      "capture": {
+        "line": 16,
+        "dword": 15,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "n",
+      "layout_row": 4,
+      "layout_col": 6
+    },
+    "m": {
+      "capture": {
+        "line": 17,
+        "dword": 0,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "m",
+      "layout_row": 4,
+      "layout_col": 7
+    },
+    ",": {
+      "capture": {
+        "line": 17,
+        "dword": 1,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": ",",
+      "layout_row": 4,
+      "layout_col": 8
+    },
+    "period": {
+      "capture": {
+        "line": 17,
+        "dword": 2,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": ".",
+      "layout_row": 4,
+      "layout_col": 9
+    },
+    "slash": {
+      "capture": {
+        "line": 17,
+        "dword": 3,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "/",
+      "layout_row": 4,
+      "layout_col": 10
+    },
+    "right shift": {
+      "capture": {
+        "line": 17,
+        "dword": 4,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "rshift",
+      "layout_row": 4,
+      "layout_col": 11
+    },
+    "enter": {
+      "capture": {
+        "line": 17,
+        "dword": 5,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "enter",
+      "layout_row": 3,
+      "layout_col": 12
+    },
+    "left ctrl": {
+      "capture": {
+        "line": 17,
+        "dword": 11,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "lctrl",
+      "layout_row": 5,
+      "layout_col": 0
+    },
+    "windows": {
+      "capture": {
+        "line": 17,
+        "dword": 12,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "super",
+      "layout_row": 5,
+      "layout_col": 1
+    },
+    "left alt": {
+      "capture": {
+        "line": 17,
+        "dword": 13,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "lalt",
+      "layout_row": 5,
+      "layout_col": 2
+    },
+    "space": {
+      "capture": {
+        "line": 17,
+        "dword": 14,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "space",
+      "layout_row": 5,
+      "layout_col": 3
+    },
+    "right alt": {
+      "capture": {
+        "line": 17,
+        "dword": 15,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "ralt",
+      "layout_row": 5,
+      "layout_col": 4
+    },
+    "function": {
+      "capture": {
+        "line": 18,
+        "dword": 0,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "fn",
+      "layout_row": 5,
+      "layout_col": 5
+    },
+    "menu": {
+      "capture": {
+        "line": 18,
+        "dword": 1,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "menu",
+      "layout_row": 5,
+      "layout_col": 6
+    },
+    "right ctrl": {
+      "capture": {
+        "line": 18,
+        "dword": 2,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "rctrl",
+      "layout_row": 5,
+      "layout_col": 7
+    },
+    "left arrow": {
+      "capture": {
+        "line": 18,
+        "dword": 3,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "left",
+      "layout_row": 5,
+      "layout_col": 8
+    },
+    "down arrow": {
+      "capture": {
+        "line": 18,
+        "dword": 4,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "down",
+      "layout_row": 5,
+      "layout_col": 9
+    },
+    "up arrow": {
+      "capture": {
+        "line": 18,
+        "dword": 5,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "up",
+      "layout_row": 4,
+      "layout_col": 12
+    },
+    "right arrow": {
+      "capture": {
+        "line": 18,
+        "dword": 6,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "right",
+      "layout_row": 5,
+      "layout_col": 10
+    },
+    "backspace": {
+      "capture": {
+        "line": 18,
+        "dword": 7,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "backspace",
+      "layout_row": 1,
+      "layout_col": 13
+    },
+    "prtsc": {
+      "capture": {
+        "line": 19,
+        "dword": 0,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": null
+    },
+    "scrllk": {
+      "capture": {
+        "line": 19,
+        "dword": 1,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": null
+    },
+    "pause": {
+      "capture": {
+        "line": 19,
+        "dword": 3,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": null
+    },
+    "insert": {
+      "capture": {
+        "line": 19,
+        "dword": 4,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "insert",
+      "layout_row": 1,
+      "layout_col": 14
+    },
+    "home": {
+      "capture": {
+        "line": 19,
+        "dword": 5,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "home",
+      "layout_row": 1,
+      "layout_col": 15
+    },
+    "page up": {
+      "capture": {
+        "line": 19,
+        "dword": 6,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "pgup",
+      "layout_row": 1,
+      "layout_col": 16
+    },
+    "del": {
+      "capture": {
+        "line": 19,
+        "dword": 7,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "del",
+      "layout_row": 2,
+      "layout_col": 14
+    },
+    "end": {
+      "capture": {
+        "line": 19,
+        "dword": 8,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "end",
+      "layout_row": 2,
+      "layout_col": 15
+    },
+    "page down": {
+      "capture": {
+        "line": 19,
+        "dword": 9,
+        "value": "80ff0000"
+      },
+      "extra_dwords": [],
+      "layout_label": "pgdn",
+      "layout_row": 2,
+      "layout_col": 16
+    }
+  },
+  "aliases": {
+    "escape": "escape",
+    "f1": "f1",
+    "f2": "f2",
+    "f3": "f3",
+    "f4": "f4",
+    "f5": "f5",
+    "f6": "f6",
+    "f7": "f7",
+    "f8": "f8",
+    "f9": "f9",
+    "f10": "f10",
+    "f11": "f11",
+    "f12": "f12",
+    "backtick": "backtick",
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "0": "0",
+    "-": "-",
+    "=": "=",
+    "backspace": "backspace",
+    "insert": "insert",
+    "home": "home",
+    "pgup": "page up",
+    "tab": "tab",
+    "q": "q",
+    "w": "w",
+    "e": "e",
+    "r": "r",
+    "t": "t",
+    "y": "y",
+    "u": "u",
+    "i": "i",
+    "o": "o",
+    "p": "p",
+    "[": "[",
+    "]": "]",
+    "\\": "reverse slash",
+    "del": "del",
+    "end": "end",
+    "pgdn": "page down",
+    "capslk": "caps lock",
+    "a": "a",
+    "s": "s",
+    "d": "d",
+    "f": "f",
+    "g": "g",
+    "h": "h",
+    "j": "j",
+    "k": "k",
+    "l": "l",
+    ";": ";",
+    "'": "'",
+    "enter": "enter",
+    "lshift": "left shift",
+    "z": "z",
+    "x": "x",
+    "c": "c",
+    "v": "v",
+    "b": "b",
+    "n": "n",
+    "m": "m",
+    ",": ",",
+    ".": "period",
+    "/": "slash",
+    "rshift": "right shift",
+    "up": "up arrow",
+    "lctrl": "left ctrl",
+    "super": "windows",
+    "lalt": "left alt",
+    "space": "space",
+    "ralt": "right alt",
+    "fn": "function",
+    "menu": "menu",
+    "rctrl": "right ctrl",
+    "left": "left arrow",
+    "down": "down arrow",
+    "right": "right arrow"
+  }
+}
