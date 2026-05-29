@@ -79,4 +79,4 @@ the main packet's offsets:
 
 > [!tip]
 > ### Resources
-> previous research (offsets, notes, etc.) can be found in the [Resources](https://github.com/neoforean/thor-404-linux-rgb-script/tree/resources) branch 
+> previous research (offsets, notes, etc.) can be found in the [Resources](https://github.com/rrivvi/thor-404-linux-rgb-script/tree/resources) branch 
